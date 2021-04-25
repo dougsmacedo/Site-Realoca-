@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="realoca2.css">
+    <title>Reintegra</title>
+    <style>
+        body {
+            background-color: rgb(202, 243, 243);
+        }
+    </style>
+    <link rel="stylesheet" href="realoca2.css">
+</head>
+
+<body>
+    <h1 id="tit_1" class="noticias">
+        <img src="WhatsApp Image 2021-04-17 at 00.12.12.jpeg" alt="10%">
+
+    </h1>
+    <p><em>A expectativa de vida do brasileiro aumentou 31,1 anos desde 1940, atingindo 76,6 anos em 2019</em>.<br> E a
+        população com mais de <b>50 anos</b> no Brasil chega a<b>28%</b>, podendo alcançar <b>54% até 2050</b>.<br>
+        Esses dados mostram que essas pessoas são imprescindíveis no mercado de trabalho pois são um montante muito
+        grande e continuarão ativas por muitos anos.<br>
+        <strong>A aposentadoria não significa o fim do trabalho.</strong><br> Uma pesquisa do Instituto Locomotiva e
+        Bradesco Seguros mostrou que o brasileiro deseja ter uma aposentadoria ativa, <b>69%</b> dos entrevistados
+        querem se manter ocupados e ter muitas atividades para fazer.<br>
+        Entre o fim de <b>2019</b> e o fim de <b>2020</b> mais de <em>400 mil</em> brasileiros com mais de 50 anos
+        ficaram desempregados, assim a taxa de desemprego nessa faixa supera os <b>7%.</b><br> Segundo o Segundo o
+        economista <strong>Bruno Ottoni</strong>, pesquisador do IDados e do Ibre/FGV, esse foi o maior aumento
+        proporcional durante a pandemia.<br>
+        Diante dessas informações torna-se essencial desenvolver plataformas e programas de incentivo a contratação de
+        candidatos acima dos 50 anos, com o intuito de acabar com o preconceito etário e reinserir essas pessoas no
+        mercado de trabalho.
+    </p>
+    <P>
+        <H1><span class="destaque">Pesquisa e entrevistas:</span></H1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=HZLXWZ9WGJs" target="_blank">Entrevistas</a></li>
+        <li><a href="https://veja.abril.com.br/economia/empresas-criam-programas-de-contratacao-para-maiores-de-50-anos/"
+                target="_blank">Pesquisas</a></li>
+    </ul>
+    </P>
+</body>
+<div>
+    <h1 id="titulo">Faça seu Cadastro</h1>
+    <p id="subtitulo">Complete suas informações:</p>
+    <br>
+</div>
+<form>
+    <fieldset class="grupo">
+        <div>
+            <label for="nome"><strong>Nome</strong></label>
+            <input type="text" name="Nome" id="Nome" required>
+        </div>
+        <div class="campo">
+            <label for="sobrenome"><strong>Sobrenome</strong></label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+        </div>
+    </fieldset>
+    <div>
+        <label for="email"><strong>Email</strong></label>
+        <input type="email" name="Email" id="Email" required>
+    </div>
+    <div class="campo">
+        <label><strong>Gênero</strong></label>
+        <label>
+            <input type="radio" name="genero" value="Masculino" checked> Masculino
+        </label>
+        <label>
+            <input type="radio" name="genero" value="Feminino">Feminino
+        </label>
+        <label>
+            <input type="radio" name="genero" value="Outros">Outros
+        </label>
+    </div>
+    <div class="campo">
+        <label for="selecione"><strong>Estado</strong></label>
+        <select id="estado">
+            <option selected disabled value="">Selecione</option>
+            <option>São paulo - SP</option>
+            <option>Rio de Janeiro - RJ</option>
+            <option>Minas Gerais - Mg</option>
+            <option>Goiás - GO</option>
+        </select>
+    </div>
+    <fieldset class="grupo">
+        <div class="campo">
+            <label><strong>Selecione as Opções</strong></label><br><br>
+            <input type="checkbox" id="opcoes" name="opcoes" value="procurando vagas">
+            <label for="procurando vagas">Procurando vagas</label>
+            <input type="checkbox" id="opcoes" name="opcoes" value="verificando oportunidades">
+            <label for="verificando oportunidades">Verificando Oportunidades</label>
+        </div>
+    </fieldset>
+    <div class="campo">
+        <br>
+        <label>
+            <p>Conte um pouco da sua Experiênca</p>
+        </label>
+        <textarea name="experiencia" id="experiencia" cols="50" rows="15" style="width: 30em;"></textarea>
+    </div>
+    <button class="botao" type="submit">Enviar</button>
+</form>
+
+</html>
